@@ -8,9 +8,10 @@ particular, the proposed DFM criterion is also discriminative for anomaly recogn
 ![framework](./imgs/framework.png)
 
 ## Enviroment
-- PyTorch 2.0.0
 - Python 3.8.16
-- Numpy  1.24.2
+- PyTorch 2.0.0
+- Torchvision 0.15.2
+- cudatoolkit 11.7
 
 ## Dataset
 **We use the extracted I3D features for UCF-Crime and XD-Violence datasets from the following works:**
