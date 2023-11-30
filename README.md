@@ -1,5 +1,5 @@
 # BN-WVAD
-The official implementation of "[BatchNorm-based Weakly Supervised Video Anomaly Detection]".
+The official implementation of "[BatchNorm-based Weakly Supervised Video Anomaly Detection](https://arxiv.org/abs/2311.15367)".
 
 ## Abstract
 In weakly supervised video anomaly detection (WVAD),where only video-level labels are provided denoting thepresence or absence of abnormal events, the primary challenge arises from the inherent ambiguity in temporal annotations of abnormal occurrences. Inspired by the statistical insight that temporal features of abnormal events often exhibit outlier characteristics, we introduce the incorporation of BatchNorm into WVAD, resulting in a novel method termed BN-WVAD. Specifically, we treat the Divergence of Feature from Mean vector of BatchNorm as a reliable abnormality criterion to screen potential abnormal snippets. Moreover, a batch-level selection strategy is devised to filter more potential abnormal snippets in the video with more abnormal events occurring. In
